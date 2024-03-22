@@ -1,0 +1,64 @@
+body{
+    background: -webkit-gradient(linear, left top, left bottom, from(#E60033), to(#FF004C)) fixed;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+p{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.icone{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+a{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+
+button i{
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+button{
+    margin: 10px;
+    font-size: 20px;
+    width: 300px;
+    height: 50px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background: 0%;
+    color: white;
+    border: 3px solid white;
+    border-radius: 15px;
+    transition: 0.2s;
+}
+
+button:hover{
+    scale:  1.05;
+    box-shadow: 0 0 10px 5px white;
+}
+
+
